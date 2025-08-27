@@ -11,7 +11,7 @@
 
 2. Запустите сервер:
    ```bash
-   go run ./cmd/main.go
+   go run ./cmd/api/main.go
    ```
    Сервер будет слушать порт `9090`.
 
