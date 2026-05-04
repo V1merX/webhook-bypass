@@ -41,25 +41,4 @@ curl -X POST "http://localhost:9090/?webhook=https://discord.com/api/webhooks/В
 
 ---
 
-## Публичный сервис
-
-Вы можете пользоваться публичным экземпляром сервиса по адресу:
-
-```
-https://discord.upserv.su/
-```
-
-**Пример запроса:**
-
-```bash
-curl -X POST "https://discord.upserv.su/?webhook=https://discord.com/api/webhooks/ВАШ_WEBHOOK" \
--H "Content-Type: application/json" \
--d '{"content": "Hello from webhook-bypass!"}'
-```
-
-**Внимание:**  
-Не отправляйте приватные данные через публичный сервис.
-
----
-
 MIT
